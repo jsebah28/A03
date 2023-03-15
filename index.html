@@ -1,0 +1,205 @@
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Radio Taxis Libres</title>
+    </head>
+
+    <header>
+
+        <div class="header_web_version">
+
+            <a href="./index.html">
+                <div class="banner">
+                    <img src="./img/banner.png" alt="Pide Tu Taxi Los Moviles Modelo 2023 6342222">
+                </div>
+            </a>
+
+            <menu class="menu_web_version">
+                <ul class="menu_items">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./quienes_somos.html">¿Quienes somos?</a></li>
+                    <li><a href="./contactanos.html">Contáctanos</a></li>
+                    <li><a href="./pqr.html">PQR's</a></li>
+                </ul>
+            </menu>
+
+        </div>
+
+    </header>
+
+    <div class="web_video_background">
+        <div class="video_background">
+            <video autoplay loop muted src="./video/background.mp4"></video>
+        </div>
+        <div class="blur_effect_over_video"></div>
+    </div>
+
+    <body>
+        <div class="main_options">
+            <div class="buttoms_container">
+                <div class="primary_buttom_background">
+                    <a href="empresas.html">
+                        <div class="primary_buttom">
+                            <div>
+                                <h2><b>Empresas</b></h2>
+                                <p>Elimina el efectivo pagando con vale digital</p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="primary_buttom_background primary_buttom_background2">
+                    <a href="servicio_especial.html">
+                        <div class="primary_buttom">
+                            <div>
+                                <h2><b>Servicio especial</b></h2>
+                                <p>Vehículos para necesidades especificas</p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div><img src="./img/logo_web.png" alt="" class="logo_web"></div>
+            <div class="buttoms_container">
+                <div class="primary_buttom_background primary_buttom_background3">
+                    <div class="primary_buttom">
+                        <div>
+                            <h2><b>Conductores</b></h2>
+                            <p>App e información relacionada</p>
+                        </div>
+                        <img src="./img/arrow_white.png" alt="">
+                    </div>                
+                </div>
+                <div class="primary_buttom_background primary_buttom_background4">
+                    <div class="primary_buttom">
+                        <div>
+                            <h2><b>Usuarios</b></h2>
+                            <p>App Los Móviles</p>
+                        </div>
+                        <img src="./img/arrow_white.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="whatsapp">
+                <a href="https://wa.me/+573188220056">
+                    <div class="whatsapp_buttom">
+                        <img src="./img/whatsapp_icon.png" alt="">
+                        <div>
+                            <p>Pide tu móvil desde</p>
+                            <h2><b>Whatsapp</b></h2>
+                        </div>
+                        <img src="./img/arrow_white.png" alt="">
+                    </div>
+                </a>
+                <p>o</p>
+                <p>Llama desde cualquier smartphone/teléfono al</p>
+                <p><b>607-6342222</b></p>
+            </div>
+        </div> 
+
+<!-- mobile version structure -->
+
+        <div class="mobile_version_structure">
+
+            <div class="header_mobile_version">
+                
+                <a href="javascript:void(0);" onclick="showMenu();" class="menu_icon_mobile_version"><img src="./img/menu_icon.svg" alt="ícono del menú" ></a>
+                
+                <a href="index.html" class="logo"><img src="./img/logo.png" alt="Logo de Radio Taxis Libres"></a>
+                
+                <div id="menu_mobile_version" class="menu_mobile_version" style="display: none;">
+                    <nav>
+                        <a href="javascript:void(0);" onclick="hideMenu();" class="close_window"><img src="./img/close_x.svg" alt=""></a>
+                        <ul>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li>¿Quienes somos?</li>
+                            <li>Contáctenos</li>
+                            <li>Usuarios</li>
+                            <li>Conductores</li>
+                        </ul>
+                    </nav>
+                </div> 
+
+            </div>
+
+            <section class="main_options_mobile_version">
+                <div class="content-more">
+                    <h4>Elimina los vales digitales</h4>
+                    <h1>VALES DIGITALES</h1>
+                    <a href="empresas.html" class="primary-buttom">Saber más</a>
+                </div>
+                <div class="content-more">
+                    <h4>Vehículos de alta gama</h4>
+                    <h1>SERVICIO ESPECIAL</h1>
+                    <a href="servicio_especial.html" class="primary-buttom">Saber más</a>
+                </div>
+                <div class="content-more">
+                    <h4>Más de </h4>
+                    <h1>2.000 VEHÍCULOS</h1>
+                    <h4>disponibles</h4>
+                    <a href="javascript:void(0);" onclick="showAskCab();" class="primary-buttom">Pide tu taxi</a>
+                </div>
+            </section>
+            <div id="ask_cab" style="display: none;">
+                <nav class="ask_cab">
+                    <div class="close_window">
+                        <a href="javascript:void(0);" onclick="hideAskCab();"><img src="./img/close_x.svg" alt=""></a>
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.losmoviles.usuario&hl=es_CO&gl=US&pli=1">
+                        <div class="ask_buttom">
+                            <img src="./img/play_store_icon.png" alt="">
+                            <div>
+                                <p>Descarga en</p>
+                                <p><b>Play Store</b></p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+        
+                    <a href="https://apps.apple.com/co/app/los-moviles/id1437641070">
+                        <div class="ask_buttom">
+                            <img src="./img/app_store_icon.png" alt="">
+                            <div>
+                                <p>Descarga en</p>
+                                <p><b>App Store</b></p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+        
+                    <a href="">
+                        <div class="ask_buttom">
+                            <img src="./img/whatsapp_icon.png" alt="">
+                            <div>
+                                <p>Pide por</p>
+                                <p><b>Whatsapp</b></p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+        
+                    <a href="tel:6076342222">
+                        <div class="ask_buttom">
+                            <img src="./img/phone_icon.png" alt="">
+                            <div>
+                                <p>Pide al</p>
+                                <p><b>6342222</b></p>
+                            </div>
+                            <img src="./img/arrow_white.png" alt="">
+                        </div>
+                    </a>
+        
+                </nav>
+            </div>
+        </div>
+
+    <script src="./script.js"></script>
+    </body>
+
+</html>
