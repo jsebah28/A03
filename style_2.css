@@ -124,9 +124,7 @@
     }
 
     .close_window {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: end;
+        display: flex;
         padding: 2rem;  
     }
 
@@ -143,12 +141,14 @@
         backdrop-filter: blur(40px);
         min-height: 100vh;
         width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
     .ask_buttom {
         background-color: rgba(255, 255, 255, 0.1);
         margin: 0.2rem;
-        margin-bottom: 2rem;
         padding: 1rem;
         display: grid;
         grid-template-columns: 20% 60% 20%;
@@ -156,8 +156,7 @@
         border-radius: 0.5rem;
         align-items: center;
         justify-items: center;
-        margin: 2rem 1rem;
-        max-width: 90vw;
+        min-width: 80vw;
     }
 
     .vouchers {
@@ -186,7 +185,7 @@
     .slider {
         position: relative;
         width: 100%;
-        height: 200px;
+        height: 30vh;
         overflow: hidden;
     }
     
@@ -210,6 +209,36 @@
     .special_service img{
         width: 100%;
     }
+
+    .about_us_full_content {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        row-gap: 1rem;
+        margin: 0;
+        
+    }
+
+    .about_us_full_content img {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .about_us_div {
+        width: 100%;
+        background-color: #FAFAFA20;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .about_us_div p {
+        font-weight: 300;
+    }
+
+    .arrow_back {
+        width: 20vw;
+    }
+    
 }
 
 /* Mobile version *****************************************************************************************************/
